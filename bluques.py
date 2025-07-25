@@ -27,3 +27,19 @@ for i in range(1, 100):
         print("¡Se alcanzó el límite!")
         break
 
+
+#Cotraseña erronea
+
+clave = "Pisco.2025"
+intentos = 0
+while intentos < 3:
+    entrada = input("Introduce la contraseña: ")
+    if entrada == clave:
+        print("Contraseña correcta. Acceso concedido.")
+        break
+    else:
+        intentos += 1
+        print(f"Contraseña incorrecta. Te quedan {3 - intentos} intentos.")
+ 
+   
+
