@@ -28,10 +28,11 @@ for i in range(1, 100):
         break
 
 
-#Cotraseña erronea
+#Cotraseña erronea, pequeño programa de tres intenmtos para introducir la contraseña correcta# Definición de la contraseña correcta
 
 clave = "Pisco.2025"
 intentos = 0
+# Bucle para solicitar la contraseña hasta 3 intentos
 while intentos < 3:
     entrada = input("Introduce la contraseña: ")
     if entrada == clave:
